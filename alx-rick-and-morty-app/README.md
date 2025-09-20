@@ -3,3 +3,6 @@ Concepts applied:
 ## iterface and props
 ## graphql
 ## components
+## Setting An Error Using Sentry Dashboard
+![Sentry Error Screenshot](public/SentryError.PNG)
+

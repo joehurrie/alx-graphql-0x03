@@ -3,6 +3,8 @@ import { GET_EPISODES } from "@/graphql/queries"
 import { EpisodeProps } from "@/interfaces"
 import EpisodeCard from "@/components/common/EpisodeCard"
 import { useEffect, useState } from "react"
+import ErrorProneComponent from "@/components/ErrorProneComponent"
+
 
 
 
@@ -46,6 +48,9 @@ const Home: React.FC = () => {
             />
           ))}
         </div>
+        
+      <ErrorProneComponent />
+        
 
         {/* Pagination Buttons */}
         <div className="flex justify-between mt-6">
